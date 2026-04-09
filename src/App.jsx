@@ -3,20 +3,20 @@ import { useState, useEffect, useRef } from "react";
 const projects = [
   {
     name: "Synapse AI News",
-    tag: "LIVE · MONETIZED",
-    desc: "4-agent autonomous pipeline — Researcher → Writer → Reviewer → Image Curator. React/Vite on Vercel, Supabase backend, GitHub Actions scheduling, Google AdSense.",
+    tag: "LIVE",
+    desc: "4-agent autonomous pipeline — Researcher → Writer → Reviewer → Image Curator. React/Vite on Vercel, Supabase backend, GitHub Actions scheduling.",
     stack: ["React", "Supabase", "OpenRouter", "GitHub Actions", "Vercel"],
     link: "https://synapseai-news.vercel.app",
     github: "https://github.com/manohar99-1/Vite-synapse-news",
     accent: "#00ff9d",
   },
   {
-    name: "Autonomous Book Publisher",
-    tag: "AGENTIC · PIPELINE",
-    desc: "5-agent pipeline (Researcher → Outliner → Writer → Editor → Formatter) with Supabase checkpointing, Telegram bot approvals, PDF output, and Gumroad/KDP publishing.",
-    stack: ["Python", "OpenRouter", "Supabase", "Telegram Bot", "GitHub Actions"],
+    name: "CEO Research Agent",
+    tag: "AGENTIC · AI",
+    desc: "Autonomous multi-agent pipeline that researches CEOs and company leaders — scrapes web sources, synthesizes insights, and generates structured reports using LLMs.",
+    stack: ["Python", "OpenRouter", "Multi-Agent", "GitHub Actions"],
     link: null,
-    github: "https://github.com/manohar99-1/autonomous-book-publisher",
+    github: "#",
     accent: "#ff6b35",
   },
   {
@@ -61,7 +61,7 @@ const skills = [
   { cat: "AI/ML", items: ["PyTorch", "HuggingFace", "OpenRouter", "LLM Pipelines", "Multi-Agent Systems"] },
   { cat: "Backend", items: ["Python", "Node.js", "Express", "FastAPI", "Supabase", "MongoDB"] },
   { cat: "Frontend", items: ["React", "Vite", "JavaScript", "TypeScript", "Tailwind"] },
-  { cat: "DevOps", items: ["GitHub Actions", "Vercel", "Docker", "CI/CD", "Linux"] },
+  { cat: "DevOps", items: ["GitHub Actions", "Vercel", "CI/CD"] },
   { cat: "Blockchain", items: ["Solidity", "Ethereum", "Smart Contracts", "Web3.js"] },
 ];
 
@@ -353,7 +353,7 @@ export default function Portfolio() {
         </h1>
 
         <p style={{ fontSize: "clamp(0.95rem, 2.5vw, 1.15rem)", color: "#64748b", maxWidth: "540px", lineHeight: 1.8, marginBottom: "32px" }}>
-          <TypeWriter text="AI/ML Engineer · Builder · Final-year CS @ Vignan Institute · Ships production AI systems end-to-end from mobile" delay={300} />
+          <TypeWriter text="Final-year CS @ Vignan Institute · Ships production AI systems end-to-end from mobile" delay={300} />
         </p>
 
         <div style={{ display: "flex", flexWrap: "wrap", gap: "12px", marginBottom: "48px" }}>
@@ -393,7 +393,7 @@ export default function Portfolio() {
 
         {/* Stats row */}
         <div style={{ display: "flex", gap: "40px", marginTop: "64px", borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "32px", flexWrap: "wrap" }}>
-          {[["8.67", "CGPA"], ["6+", "Projects Shipped"], ["2", "Internships"], ["1", "Research Paper"]].map(([val, label]) => (
+          {[["6+", "Projects Shipped"], ["1", "Internship"], ["1", "Research Paper"]].map(([val, label]) => (
             <div key={label}>
               <div style={{ fontFamily: "'Syne', sans-serif", fontSize: "1.8rem", fontWeight: 800, color: "#ffffff" }}>{val}</div>
               <div style={{ fontSize: "0.65rem", letterSpacing: "0.15em", color: "#475569", textTransform: "uppercase", marginTop: "2px" }}>{label}</div>
