@@ -490,7 +490,7 @@ export default function Portfolio() {
         </div>
 
         <div style={{ marginTop: "80px", borderTop: "1px solid rgba(255,255,255,0.06)", paddingTop: "24px", display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: "8px" }}>
-          <span style={{ fontSize: "0.7rem", color: "#334155", letterSpacing: "0.1em" }}>© 2025 Manohar Poleboina</span>
+          <span style={{ fontSize: "0.7rem", color: "#334155", letterSpacing: "0.1em" }}>© 2026 Manohar Poleboina</span>
           <span style={{ fontSize: "0.7rem", color: "#334155", letterSpacing: "0.1em" }}>Built with React · Deployed on Vercel</span>
         </div>
       </section>
