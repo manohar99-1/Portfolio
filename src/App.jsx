@@ -483,7 +483,6 @@ export default function Portfolio() {
         <div style={{ display: "flex", flexDirection: "column", gap: "12px", maxWidth: "480px" }}>
           {[
             { label: "GitHub", href: "https://github.com/manohar99-1", icon: "⌥" },
-            { label: "LinkedIn", href: "https://linkedin.com/in/manoharreddy", icon: "◈" },
             { label: "Synapse AI News", href: "https://synapseai-news.vercel.app", icon: "◆" },
           ].map((c) => (
             <a key={c.label} href={c.href} target="_blank" rel="noreferrer" className="contact-link">
