@@ -462,10 +462,6 @@ export default function Portfolio() {
               <div style={{ color: "#64748b", fontSize: "0.82rem", marginTop: "4px" }}>Vignan Institute of Technology and Science, Hyderabad</div>
               <div style={{ color: "#475569", fontSize: "0.75rem", marginTop: "4px" }}>Final Year · 2021–2025</div>
             </div>
-            <div style={{ textAlign: "right" }}>
-              <div style={{ fontFamily: "'Syne', sans-serif", fontWeight: 800, fontSize: "1.8rem", color: "#00ff9d" }}>8.67</div>
-              <div style={{ fontSize: "0.65rem", letterSpacing: "0.12em", color: "#475569", textTransform: "uppercase" }}>CGPA</div>
-            </div>
           </div>
         </div>
       </section>
